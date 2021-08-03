@@ -1,5 +1,5 @@
 /*
-	Spring 2021 Algorithm(Professor: Do-Gil Lee) Assignment
+	Spring 2021 Algorithm(Prof. Do-Gil Lee) Assignment
 
 	Goal: make algorithm that finds convex hull in bruteforce way!
 */
