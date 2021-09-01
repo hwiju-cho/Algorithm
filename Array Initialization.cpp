@@ -35,9 +35,10 @@ int main()
     // 4. copy
     int arr3[5];
     int arr4[5];
-    fill(arr3,arr3+5,0);
+    fill(arr3,arr3+5,1);
     
-    copy(arr3,arr3+5,arr4);
+    copy(arr3,arr3+5,arr4); // copy(&arr3,&arr3+5,&arr4)
+    cout << arr4[2];
     
     int arr5[10][10];
     int arr6[10][10];
@@ -46,5 +47,5 @@ int main()
         fill(arr5[i],arr5[i]+10,0);
     }
 
-    copy(&arr5[0][0],&arr5[0][0]+100, &arr6[0][0]);
+    copy(&arr5[0][0],&arr5[0][0]+100, &arr6[0][0]); // Be careful!
 }
