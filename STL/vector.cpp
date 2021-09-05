@@ -12,7 +12,7 @@ int main()
     // 1. how to declare
     vector<int> v1;   
     vector<int> v2 = {1,2,3};
-    vector<int> v3[10];
+    vector<int> v3[10]; // 2 dimension
     vector<int> v4[] = {{1,2},{3,4}};
     vector<vector<int>> v5;
     vector<int> v6(5); //initialinze 5 elements with 0
